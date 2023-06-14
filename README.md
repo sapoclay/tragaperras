@@ -1,0 +1,2 @@
+# tragaperras
+tragaperras en bash
