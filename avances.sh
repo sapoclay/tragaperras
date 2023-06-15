@@ -107,9 +107,9 @@ jugar_tragaperras() {
                     fruta_nueva=$(funcion_fruta_aleatoria)
                     combinacion[$posicion_no_igual]=$fruta_nueva
                 fi
-
+                clear
                 echo "----------------------------------------------------------------------"
-                echo "NUEVA COMBINACIÓN: ${combinacion[*]}"
+                echo "COMBINACIÓN GANADORA: ${combinacion[*]}"
 
                 if [[ "${combinacion[0]}" == "${combinacion[1]}" && "${combinacion[0]}" == "${combinacion[2]}" ]]; then  
                     echo "----------------------------------------------------------------------"
